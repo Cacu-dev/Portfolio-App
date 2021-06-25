@@ -1,0 +1,128 @@
+/*Media querys*/
+
+/*Máximo 1024px*/
+@media (max-width: 1024px) {
+  .background-about {
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624547648/portfolio/FrontendResponsive41024_mnd4kw.jpg)
+      no-repeat;
+    background-color: #1996E0;
+  }
+  .about h2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    padding: 3rem 0 2rem 8rem;
+  }
+  .parrafo-about {
+    width: 35rem;
+  }
+  .parrafo-about p {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(65, 65, 65);
+    padding: 0 0 0 0;
+    margin: 0 0 1rem 4rem;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(223, 223, 223)  ;
+    font-size: 15px;
+    margin-left: 3px;
+  }
+  a:hover {
+    color: rgb(1, 34, 65);
+  }
+}
+/*Máximo 768px*/
+@media (max-width: 768px) {
+  .background-about {
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624578895/portfolio/FrontendResponsive768_oacuvj.jpg)
+      no-repeat;
+    background-color: #1996E0;
+  }
+  .about h2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    padding: 35.5rem 4rem 0 0;
+  }
+  .parrafo-about {
+    width: 48rem;
+  }
+  .parrafo-about p {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(65, 65, 65);
+    margin: 0 0 1rem 3rem;
+  }
+}
+
+/*Máximo 480px*/
+@media (max-width: 480px) {
+  .background-about {
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624541186/portfolio/FrontendResponsive480-2_bgkbhs.jpg)
+      no-repeat;
+    background-color: #1996E0;
+  }
+  .about h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12rem 0 0 13rem;
+  }
+  .parrafo-about {
+    width: 30rem;
+  }
+  .parrafo-about p {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(65, 65, 65);
+    padding: 0 0 0 0;
+    margin: 0 0 1rem 4rem;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(223, 223, 223)  ;
+    font-size: 15px;
+    margin-left: 3px;
+  }
+}
+
+/*Máximo 320px*/
+@media (max-width: 320px) {
+  .background-about {
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624479032/portfolio/FrontendResponsive2_kbjiee.jpg)
+      repeat-x;
+    background-color: #1996E0;
+  }
+  .about h2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    padding: 27rem 0 0 23rem;
+  }
+  .parrafo-about {
+    width: 34rem;
+    margin: 0;
+  }
+  .parrafo-about p {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(65, 65, 65);
+    padding: 0 0 0 12rem;
+    margin-bottom: 1rem;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(223, 223, 223)  ;
+    font-size: 15px;
+    margin-left: 3px;
+  }
+}

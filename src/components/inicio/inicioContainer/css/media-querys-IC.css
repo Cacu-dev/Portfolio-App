@@ -1,0 +1,32 @@
+/*Media querys*/
+
+/*Máximo 1024px*/
+@media (max-width:1024px){
+  .contenedor-principal {
+  min-height: 100vh;
+  background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624546914/portfolio/React1024_ljtfcf.jpg) no-repeat;
+}
+}
+
+/*Máximo 768px*/
+@media (max-width:768px){
+  .contenedor-principal {
+  min-height: 100vh;
+  background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624577956/portfolio/React4-768-5_wbwcyz.jpg) no-repeat;
+}
+}
+/*Máximo 480px*/
+@media (max-width:480px){
+  .contenedor-principal {
+  min-height: 100vh;
+  background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624582594/portfolio/React4-480_opi7ve.jpg) no-repeat;
+}
+}
+
+/*Máximo 320px*/
+@media (max-width:320px){
+  .contenedor-principal {
+  min-height: 100vh;
+  background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624626643/portfolio/React4-320_wqoat6.jpg) no-repeat;
+}
+}

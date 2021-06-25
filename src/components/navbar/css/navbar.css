@@ -1,0 +1,18 @@
+.width-button {
+  height: 100px;
+  width: 150px;
+  margin-top: 1rem;
+}
+.letter {
+  font-weight: 700;
+  text-align: start;
+  margin-left: 3rem;
+}
+.background-button{
+  background-color: white;
+}
+span a{
+  color: #fff;
+}
+
+

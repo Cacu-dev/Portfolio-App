@@ -1,0 +1,250 @@
+/*Media querys*/
+
+/*Máximo 1024px*/
+@media (max-width: 1024px) {
+  .background-porfolio {
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1623855646/portfolio/Dispositivos-Fondo_z2w72j.jpg)
+      no-repeat;
+  }
+  .portfolio-h2 h2 {
+    padding: 6rem 0 1rem 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .contenedor-portfolio {
+    padding-bottom: 4rem;
+  }
+  .contenedor-img {
+    border: 1px solid #000;
+    width: 319.5px;
+    height: 305.16px;
+    margin-top: 2rem;
+    border-radius: 25%;
+    background-color: #ffff;
+  }
+  .imagen-uno {
+    width: 309.5px;
+    height: 195.16px;
+    margin-top: 3rem;
+    padding: 0 0.5rem 0 1rem;
+  }
+
+  .contenedor-img2 {
+    background-color: #f6de00;
+  }
+  .imagen-dos {
+    padding-top: 1.5rem;
+    width: 314px;
+    height: 295.16px;
+    border-radius: 25%;
+    margin-right: 5rem;
+    margin-left: 0;
+  }
+  .contenedor-img-tres {
+    margin-bottom: 0;
+  }
+  .imagen-tres {
+    width: 309.5px;
+    height: 295.16px;
+    padding: 3rem 1rem 3rem 1rem;
+  }
+
+  .contenedor-img:hover {
+    transform: scale(1.1);
+  }
+  .button-style {
+    height: 4rem;
+    width: 7rem;
+    margin-left: 2rem;
+    padding: 3rem 0 7rem 5px;
+  }
+  .button-style button {
+    height: 4rem;
+    width: 10rem;
+    border-radius: 2%;
+    background-color: transparent;
+  }
+  .letter-style {
+    font-weight: 700;
+    color: #fff;
+  }
+}
+/*Máximo 768px*/
+@media (max-width: 768px) {
+  .background-porfolio {
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624549360/portfolio/Dispositivos-Fondo1024-2_neervd.jpg);
+  }
+  .portfolio-h2 h2 {
+    padding: 7rem 0 3rem 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .contenedor-portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 5rem 11rem;
+  }
+  .contenedor-img {
+    border: 1px solid #000;
+    width: 409.5px;
+    height: 395.16px;
+    margin: 2rem 0 3rem 0;
+    border-radius: 25%;
+    background-color: #ffff;
+  }
+  .imagen-uno {
+    width: 329.5px;
+    height: 215.16px;
+    margin-top: 5rem;
+    padding: 0 0.5rem 0 1.5rem;
+  }
+
+  .contenedor-img2 {
+    background-color: #f6de00;
+  }
+  .imagen-dos {
+    width: 374px;
+    height: 355.16px;
+    border-radius: 25%;
+    margin-right: 5rem;
+    margin:1rem 0.5rem 0 1rem;
+  }
+  .contenedor-img-tres {
+    margin-bottom: 0;
+  }
+  .imagen-tres {
+    width: 339.5px;
+    height: 325.16px;
+    padding: 5rem 1rem 1rem 1rem;
+  }
+
+  .button-style {
+    height: 4rem;
+    width: 7rem;
+    margin-left: 2rem;
+    padding: 0 0 7rem 16rem;
+  }
+  .button-style button {
+    height: 4rem;
+    width: 10rem;
+    border-radius: 2%;
+    background-color: transparent;
+  }
+  .letter-style {
+    font-weight: 700;
+    color: #fff;
+  }
+}
+/*Máximo 480px*/
+@media (max-width: 480px) {
+  .background-porfolio {
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624542177/portfolio/FrontendResponsivePortfolio-2_ko3ihn.jpg)
+      no-repeat;
+  }
+  .portfolio-h2 h2 {
+    padding: 12rem 0 3rem 0;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .contenedor-portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 3rem 6.2rem;
+  }
+  .contenedor-img {
+    border: 1px solid #000;
+    width: 279.5px;
+    height: 275.16px;
+    margin: 2rem 0 0 0;
+    border-radius: 25%;
+    background-color: #ffff;
+  }
+  .imagen-uno {
+    width: 269.5px;
+    height: 165.16px;
+    margin-top: 3rem;
+    padding: 0 0.7rem 0 1rem;
+  }
+  .contenedor-img2 {
+    background-color: #f6de00;
+  }
+  .imagen-dos {
+    padding-top: 1.2rem;
+    width: 274px;
+    height: 235.16px;
+    border-radius: 25%;
+    margin-right: 5rem;
+    margin-left: 0;
+  }
+  .imagen-tres {
+    width: 279.5px;
+    height: 285.16px;
+    padding: 2.5rem 1.2rem 3.5rem 1rem;
+  }
+  .button-style {
+    height: 4rem;
+    width: 7rem;
+    margin-left: 7.3rem;
+    padding: 1rem 0 8rem 5px;
+  }
+}
+
+/*Máximo 320px*/
+@media (max-width: 320px) {
+  .portfolio-h2 h2 {
+    padding: 13rem 0 1rem 0;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .portfolio-h2 h2 {
+    padding: 13rem 0 3rem 0;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .contenedor-portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 3rem 1.3rem;
+  }
+  .contenedor-img {
+    border: 1px solid #000;
+    width: 279.5px;
+    height: 275.16px;
+    margin: 2rem 0 0 0;
+    border-radius: 25%;
+    background-color: #ffff;
+  }
+  .imagen-uno {
+    width: 269.5px;
+    height: 165.16px;
+    margin-top: 3rem;
+    padding: 0 0.7rem 0 1rem;
+  }
+  .contenedor-img2 {
+    background-color: #f6de00;
+  }
+  .imagen-dos {
+    padding-top: 1.2rem;
+    width: 274px;
+    height: 235.16px;
+    border-radius: 25%;
+    margin-right: 5rem;
+    margin-left: 0;
+  }
+  .imagen-tres {
+    width: 279.5px;
+    height: 285.16px;
+    padding: 2.5rem 1.2rem 3.5rem 1rem;
+  }
+  .button-style {
+    height: 4rem;
+    width: 7rem;
+    margin-left: 2.5rem;
+    padding: 1rem 0 8rem 5px;
+  }
+}

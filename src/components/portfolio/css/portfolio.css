@@ -1,0 +1,67 @@
+.background-porfolio {
+  background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1623855646/portfolio/Dispositivos-Fondo_z2w72j.jpg);
+}
+.portfolio-h2 h2 {
+  padding: 4rem 0 1rem 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+.contenedor-portfolio {
+  padding-bottom: 4rem;
+}
+.contenedor-img {
+  border: 1px solid #000;
+  width: 319.5px;
+  height: 305.16px;
+  margin-top: 2rem;
+  border-radius: 25%;
+  background-color: #ffff;
+}
+.imagen-uno {
+  width: 309.5px;
+  height: 195.16px;
+  margin-top: 3rem;
+  padding: 0 0.5rem 0 1rem;
+}
+
+.contenedor-img2 {
+  background-color: #f6de00;
+}
+.imagen-dos {
+  padding-top: 1.5rem;
+  width: 314px;
+  height: 295.16px;
+  border-radius: 25%;
+  margin-right: 5rem;
+  margin-left: 0;
+}
+.contenedor-img-tres {
+  margin-bottom: 0;
+}
+.imagen-tres {
+  width: 309.5px;
+  height: 295.16px;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+.contenedor-img:hover {
+  transform: scale(1.1);
+}
+.button-style {
+  height: 4rem;
+  width: 7rem;
+  margin-left: 2rem;
+  padding: 1rem 0 7rem 5px;
+}
+.button-style button {
+  height: 4rem;
+  width: 10rem;
+  border-radius: 2%;
+  background-color: transparent;
+}
+.letter-style {
+  font-weight: 700;
+  color: #fff;
+}
+
