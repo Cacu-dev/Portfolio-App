@@ -1,5 +1,27 @@
 /*Media querys*/
 
+/*Máximo 1920px*/
+@media (min-width:1920px){
+  .width-button button {
+  height: 85px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 25px;
+  padding-right: 3rem;
+}
+.navbar-toggler-icon{
+  width: 50px;
+  margin-left: 13px;
+}
+.letter {
+  font-size: 2em;
+  font-weight: 700;
+  text-align: start;
+  margin-left: 40px;
+  width: 150px;
+}
+}
+
 /*Máximo 1024px*/
 @media (max-width:1024px){
   .width-button {
@@ -12,12 +34,6 @@
   font-weight: 700;
   text-align: start;
   margin-left: 2.4rem;
-}
-.background-button{
-  background-color: white;
-}
-span a{
-  color: #fff;
 }
 }
 

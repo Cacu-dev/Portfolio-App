@@ -1,5 +1,30 @@
 /*Media querys*/
 
+/*Máximo 1920px*/
+@media (min-width: 1920px) {
+  .background-about {
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624896620/portfolio/Frontend1980-2_chicrg.jpg)
+      no-repeat;
+  }
+  .about {
+  margin: auto auto 50px auto;
+}
+  .about h2 {
+    font-size: 80px;
+  }
+  .parrafo-about {
+    width: 74rem;
+  }
+  .parrafo-about p {
+    font-size: 2em;
+    line-height: 1.5em;
+    margin: 0 0 1rem 4rem;
+  }
+  a {
+    font-weight: 600;
+    font-size: 1em;
+  }
+}
 /*Máximo 1024px*/
 @media (max-width: 1024px) {
   .background-about {

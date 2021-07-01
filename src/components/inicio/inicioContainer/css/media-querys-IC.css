@@ -1,5 +1,13 @@
 /*Media querys*/
 
+/*Máximo 1920px*/
+@media (min-width:1920px){
+  .contenedor-principal {
+  min-height: 100vh;
+  background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624894370/portfolio/React_oiyri9.jpg) no-repeat;
+}
+}
+
 /*Máximo 1024px*/
 @media (max-width:1024px){
   .contenedor-principal {

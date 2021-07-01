@@ -1,5 +1,18 @@
 /*Media querys*/
 
+/*Máximo 1920px*/
+@media (min-width:1920px){
+  .presentacion {
+    padding: 43rem 0 0 2rem;
+  }
+  .presentacion h1 {
+    font-size: 80px;
+  }
+  
+  .presentacion p {
+    font-size: 50px;
+  }
+}
 /*Máximo 1024px*/
 @media (max-width: 1024px) {
   .presentacion {
@@ -12,9 +25,6 @@
   .presentacion h1 {
     font-size: 58px;
     font-weight: 700;
-  }
-  .presentacion h1 span {
-    color: #ee82ee;
   }
   .presentacion p {
     font-size: 30px;
@@ -36,9 +46,6 @@
   .presentacion h1 {
     font-size: 58px;
     font-weight: 700;
-  }
-  .presentacion h1 span {
-    color: #ee82ee;
   }
   .presentacion p {
     font-size: 30px;

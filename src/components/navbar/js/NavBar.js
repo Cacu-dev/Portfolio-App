@@ -41,7 +41,7 @@ const NavBar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link active letter"
-                  href="https://drive.google.com/file/d/1TWxnbfsIMpBZczfWYVyETUgir1sRiqpM/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ltxDrN2Hy7M1B0A4Jo4Nv_3_wkRqvdW_/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
