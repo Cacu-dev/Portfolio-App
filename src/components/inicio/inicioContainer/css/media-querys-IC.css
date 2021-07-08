@@ -33,7 +33,6 @@
 @media (max-width:800px){
   .contenedor-principal {
   min-height: 100vh;
-  min-width: 100vh;
   background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1625675016/portfolio/React4-2-800_tgu6ce.jpg) no-repeat;
 }
 }
@@ -48,7 +47,7 @@
 /*Máximo 480px*/
 @media (max-width:480px){
   .contenedor-principal {
-  height: 100px;
+  width: 480px;
   background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1625687521/portfolio/React4-480-4_yg8l6a.jpg) no-repeat;
 }
 }
@@ -56,7 +55,7 @@
 /*Máximo 320px*/
 @media (max-width:320px){
   .contenedor-principal {
-  min-height: 100vh;
+    width: 320px;
   background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624626643/portfolio/React4-320_wqoat6.jpg) no-repeat;
 }
 }

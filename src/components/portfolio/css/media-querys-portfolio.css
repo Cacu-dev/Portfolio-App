@@ -140,7 +140,7 @@
   height: 4rem;
   width: 7rem;
   margin-left: 2rem;
-  padding: 1rem 0 6.5rem 5px;
+  padding: 1rem 0 8rem 5px;
 }
 .button-style button {
   height: 4rem;
@@ -294,7 +294,7 @@
 /*Máximo 480px*/
 @media (max-width: 480px) {
   .background-porfolio {
-    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624542177/portfolio/FrontendResponsivePortfolio-2_ko3ihn.jpg)
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1625752811/portfolio/FrontendResponsivePortfolio-2_ojzayy.jpg)
       no-repeat;
   }
   .portfolio-h2 h2 {
@@ -348,15 +348,12 @@
 
 /*Máximo 320px*/
 @media (max-width: 320px) {
-  .portfolio-h2 h2 {
-    padding: 13rem 0 1rem 0;
-    font-size: 60px;
-    font-weight: 700;
-    color: #fff;
+  .portfolio-h2{
+    font-size: 16px;
   }
   .portfolio-h2 h2 {
-    padding: 13rem 0 3rem 0;
-    font-size: 60px;
+    padding: 6rem 0 3rem 0;
+     font-size: 45px;
     font-weight: 700;
     color: #fff;
   }
@@ -384,10 +381,10 @@
   }
   .imagen-dos {
     padding-top: 1.2rem;
-    width: 274px;
+    width: 100%;
     height: 235.16px;
     border-radius: 25%;
-    margin-right: 5rem;
+    margin-right: 0;
     margin-left: 0;
   }
   .imagen-tres {
@@ -399,6 +396,6 @@
     height: 4rem;
     width: 7rem;
     margin-left: 2.5rem;
-    padding: 1rem 0 8rem 5px;
+    padding: 1rem 0 8rem 1.5rem;
   }
 }

@@ -164,6 +164,9 @@
 
 /*Máximo 480px*/
 @media (max-width: 480px) {
+  div .presentacion{
+    width: 480px;
+  }
   .presentacion {
     padding: 35rem 0 0 1.8rem;
     color: white;
@@ -188,16 +191,19 @@
 
 /*Máximo 320px*/
 @media (max-width: 320px) {
+  div .presentacion{
+    width: 320px;
+  }
   .presentacion {
-    padding: 17.5rem 0 0 1rem;
-    margin-bottom: 1rem;
+    padding: 17.5rem 0 0 5px;
     color: white;
   }
   .presentacion p {
     font-size: 25px;
-    margin:1rem 0 2rem 0.5rem;
+    margin:1rem 0 2rem 1.5rem;
   }
   .position-320px {
-    margin-left: 4rem;
+    margin-left: 4.5rem;
+    padding-top: 2rem;
   }
 }

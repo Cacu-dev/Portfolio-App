@@ -15,10 +15,12 @@
     font-size: 80px;
   }
   .parrafo-about {
-    margin: 6rem 23rem 0 0;
+    margin: 4rem 30rem 0 0;
   }
-  .parrafo-about p {
-    width: 60rem;
+  .parrafo-about .text-start {
+    width: 70rem;
+    line-height: 45px;
+    font-size: 35px;
   }
   a {
     font-weight: 600;
@@ -107,8 +109,8 @@
     font-size: 55px;
     font-weight: 700;
     color: #fff;
-    margin: 35rem 0 0 2rem;
-    padding: 10px 0 0 8rem;
+    margin: 35rem 0 0 0;
+    padding: 10px 0 0 0;
   }
   .parrafo-about {
     width: 45rem;
@@ -129,13 +131,15 @@
       no-repeat;
     background-color: #1996E0;
   }
-  
+  .about{
+    width: 756px;
+  }
   .about h2 {
     width: 550px;
     font-size: 55px;
     font-weight: 700;
     color: #fff;
-    margin: 35rem 100rem 0 0;
+    margin: 35rem 0 0 0;
     padding: 10px 0 0 10rem;
   }
   .parrafo-about p {
@@ -143,9 +147,9 @@
     font-weight: 700;
     text-align: center;
     color: rgb(65, 65, 65);
-    margin: 0 0 0 3rem;
+    margin: 0 0 0 2rem;
     padding-bottom: 2rem;
-    width: 38rem;
+    width: 45rem;
   }
 }
 
@@ -157,23 +161,26 @@
     background-color: #1996E0;
   }
   
+  div .about{
+    width: 468px;
+  }
   .about h2 {
-    width: 550px;
+    width: 100%;
     font-size: 55px;
     font-weight: 700;
     color: #fff;
-    margin: 0 0 15rem 0;
-    padding: 0 15rem 0 10rem;
+    margin: 1rem 0 15rem 0;
+    padding: 0;
   }
   .parrafo-about {
-    width: 49rem;
-    margin-top: 6rem;
-    padding: 0 0 1rem 10rem;
+    margin-top: 11rem;
   }
   .parrafo-about p {
+    width: 35rem;
     font-size: 20px;
     font-weight: 700;
     color: rgb(65, 65, 65);
+    margin-left: 10rem;
     padding-left: 10rem;
     
   }
@@ -182,27 +189,31 @@
 /*Máximo 320px*/
 @media (max-width: 320px) {
   .background-about {
-    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624479032/portfolio/FrontendResponsive2_kbjiee.jpg)
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1625770336/portfolio/FrontendResponsive320x410_rtxo4w.jpg)
       repeat-x;
     background-color: #1996E0;
   }
+  div .about{
+    width: 300px;
+  }
   .about h2 {
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 700;
     color: #fff;
-    padding: 27rem 0 0 23rem;
+    margin:2rem 0 9rem 0
+
   }
-  .parrafo-about {
-    width: 34rem;
-    margin: 0;
+  .parrafo-about{
+    width: 320px;
   }
   .parrafo-about p {
+    width: 19rem;
     font-size: 15px;
     font-weight: 700;
     text-align: center;
     color: rgb(65, 65, 65);
-    padding: 0 0 0 12rem;
-    margin-bottom: 1rem;
+    margin-left: 3.5rem;
+    padding-left: 0;
   }
   a {
     text-decoration: none;

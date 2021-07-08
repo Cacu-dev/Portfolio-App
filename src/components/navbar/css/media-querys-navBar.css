@@ -67,7 +67,6 @@
   
   font-size: 25px;
   font-weight: 700;
-  text-align: start;
   margin-left: 30px;
   width: 150px;
 }
@@ -75,14 +74,19 @@ button{
   margin-left: 2rem;
 }
 }
-
 /*Máximo 320px*/
 @media (max-width:320px){
   .width-button{
-    margin-left: 6.2rem;
+    padding: 0 10rem 0 0 ;
 }
 .letter{
-  width: 60px;
-  margin-left: 1.8rem;
+  
+  font-size: 19px;
+  font-weight: 700;
+  margin-left: 17px;
+  width: 150px;
+}
+button{
+  margin-left: 1rem;
 }
 }
