@@ -1,4 +1,3 @@
-import "../css/portfolio.css";
 import "../css/media-querys-portfolio.css";
 function Portfolio() {
   return (
@@ -49,7 +48,7 @@ function Portfolio() {
       </div>
       <div className="button-style">
         <a
-          href="https://drive.google.com/file/d/1ltxDrN2Hy7M1B0A4Jo4Nv_3_wkRqvdW_/view?usp=sharing"
+          href="https://drive.google.com/file/d/1p5I-tindZcra-DWoi0J9WIBgudAvNlEQ/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

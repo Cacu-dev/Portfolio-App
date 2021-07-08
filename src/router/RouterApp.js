@@ -1,6 +1,6 @@
 import React from "react";
 import Portfolio from "../components/portfolio/js/Portfolio";
-import About from "../components/about/js/About";
+import SobreMi from "../components/about/js/SobreMi";
 import NavBar from "../components/navbar/js/NavBar";
 import InicioContainer from "../components/inicio/inicioContainer/js/InicioContainer";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -14,8 +14,8 @@ const RouterApp = () => {
           <Route path="/Portfolio">
             <Portfolio />
           </Route>
-          <Route path="/About">
-            <About />
+          <Route path="/SobreMi">
+            <SobreMi />
           </Route>
           <Route path="/">
             <InicioContainer />

@@ -1,4 +1,3 @@
-import "../css/inicioContainer.css";
 import "../css/media-querys-IC.css";
 import Presentacion from "../../inicioPresentacion/js/Presentacion";
 

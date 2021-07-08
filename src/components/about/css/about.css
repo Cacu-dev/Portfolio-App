@@ -5,7 +5,7 @@
 }
 .about {
   width: 40rem;
-  margin-right: 1rem;
+  margin: 0 21rem auto auto;
 }
 .about h2 {
   font-size: 70px;
@@ -14,7 +14,7 @@
 }
 .parrafo-about {
   width: 40rem;
-  margin: 1rem 1rem 0 0;
+  margin: 2rem 2rem 0 0;
 }
 .parrafo-about p {
   font-size: 19px;

@@ -1,5 +1,158 @@
 /*Media querys*/
 
+/*Máximo 1920px*/
+@media (max-width: 1920px) {
+  .background-porfolio {
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1625500542/portfolio/Dispositivos-Fondo_bgxudt.jpg);
+  }
+  .portfolio-h2 h2 {
+    padding: 190px 0 110px 0;
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .contenedor-portfolio {
+    padding-bottom: 150px;
+  }
+  .contenedor-img {
+    border: 1px solid #000;
+    width: 319.5px;
+    height: 305.16px;
+    margin-top: 2rem;
+    border-radius: 25%;
+    background-color: #ffff;
+  }
+  .imagen-uno {
+    width: 309.5px;
+    height: 195.16px;
+    margin-top: 3rem;
+    padding: 0 0.5rem 0 1rem;
+  }
+
+  .contenedor-img2 {
+    background-color: #f6de00;
+  }
+  .imagen-dos {
+    padding-top: 1.5rem;
+    width: 314px;
+    height: 295.16px;
+    border-radius: 25%;
+    margin-right: 5rem;
+    margin-left: 0;
+  }
+  .contenedor-img-tres {
+    margin-bottom: 0;
+  }
+  .imagen-tres {
+    width: 309.5px;
+    height: 295.16px;
+    padding: 3rem 1rem 3rem 1rem;
+  }
+
+  .contenedor-img:hover {
+    transform: scale(1.1);
+  }
+  .button-style {
+    height: 4rem;
+    width: 7rem;
+    margin-left: 2rem;
+    padding: 3rem 0 9rem 5px;
+  }
+  .button-style button {
+    height: 5rem;
+    width: 11rem;
+    border-radius: 2%;
+    background-color: transparent;
+  }
+  .letter-style {
+    font-weight: 700;
+    color: #fff;
+  }
+}
+
+/*Máximo 1440px*/
+@media (max-width: 1440px) {
+  .portfolio-h2 h2 {
+    padding: 150px 0 100px 0;
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .button-style {
+    padding: 1rem 0 9rem 5px;
+  }
+}
+
+/*Máximo 1366px*/
+
+@media (max-width:1366px){
+  .background-porfolio {
+  background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1623855646/portfolio/Dispositivos-Fondo_z2w72j.jpg) no-repeat;
+}
+.portfolio-h2 h2 {
+  padding: 5rem 0 3rem 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+.contenedor-portfolio {
+  padding-bottom: 6rem;
+}
+.contenedor-img {
+  border: 1px solid #000;
+  width: 319.5px;
+  height: 305.16px;
+  margin-top: 2rem;
+  border-radius: 25%;
+  background-color: #ffff;
+}
+.imagen-uno {
+  width: 309.5px;
+  height: 195.16px;
+  margin-top: 3rem;
+  padding: 0 0.5rem 0 1rem;
+}
+
+.contenedor-img2 {
+  background-color: #f6de00;
+}
+.imagen-dos {
+  padding-top: 1.5rem;
+  width: 314px;
+  height: 295.16px;
+  border-radius: 25%;
+  margin-right: 5rem;
+  margin-left: 0;
+}
+.contenedor-img-tres {
+  margin-bottom: 0;
+}
+.imagen-tres {
+  width: 309.5px;
+  height: 295.16px;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+.contenedor-img:hover {
+  transform: scale(1.1);
+}
+.button-style {
+  height: 4rem;
+  width: 7rem;
+  margin-left: 2rem;
+  padding: 1rem 0 6.5rem 5px;
+}
+.button-style button {
+  height: 4rem;
+  width: 10rem;
+  border-radius: 2%;
+  background-color: transparent;
+}
+.letter-style {
+  font-weight: 700;
+  color: #fff;
+}
+}
 /*Máximo 1024px*/
 @media (max-width: 1024px) {
   .background-porfolio {
@@ -70,10 +223,11 @@
     color: #fff;
   }
 }
-/*Máximo 768px*/
-@media (max-width: 768px) {
+/*Máximo 800px*/
+@media (max-width: 800px) {
   .background-porfolio {
-    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624549360/portfolio/Dispositivos-Fondo1024-2_neervd.jpg);
+    height: 100%;
+    background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1625686393/portfolio/FrontendResponsivePortfolio-801_t79hfe.jpg) no-repeat;
   }
   .portfolio-h2 h2 {
     padding: 7rem 0 3rem 0;
@@ -84,7 +238,7 @@
   .contenedor-portfolio {
     display: flex;
     flex-direction: column;
-    padding: 0 0 5rem 11rem;
+    padding: 0 0 5rem 12rem;
   }
   .contenedor-img {
     border: 1px solid #000;
@@ -124,7 +278,7 @@
     height: 4rem;
     width: 7rem;
     margin-left: 2rem;
-    padding: 0 0 7rem 16rem;
+    padding: 0 0 7rem 17rem;
   }
   .button-style button {
     height: 4rem;

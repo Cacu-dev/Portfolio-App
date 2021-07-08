@@ -1,4 +1,3 @@
-import "../css/presentacion.css";
 import "../css/media-querys-presentacion.css";
 function Presentacion() {
   return (

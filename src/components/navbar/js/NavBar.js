@@ -25,12 +25,12 @@ const NavBar = () => {
                   aria-current="page"
                   to="/"
                 >
-                  Home
+                  Inicio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active letter" to="/About">
-                  About
+                <Link className="nav-link active letter" to="/SobreMi">
+                  Sobre mi
                 </Link>
               </li>
               <li className="nav-item">
@@ -41,7 +41,7 @@ const NavBar = () => {
               <li className="nav-item">
                 <a
                   className="nav-link active letter"
-                  href="https://drive.google.com/file/d/1ltxDrN2Hy7M1B0A4Jo4Nv_3_wkRqvdW_/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1p5I-tindZcra-DWoi0J9WIBgudAvNlEQ/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >

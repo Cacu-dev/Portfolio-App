@@ -21,6 +21,27 @@
   width: 150px;
 }
 }
+/*Máximo 1440px*/
+@media (min-width:1440px){
+  .width-button button {
+  height: 65px;
+  width: 80px;
+  margin-top: 30px;
+  margin-left: 25px;
+  padding-right: 3rem;
+}
+.navbar-toggler-icon{
+  width: 50px;
+  margin-left: 1px;
+}
+.letter {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: start;
+  margin-left: 50px;
+  width: 150px;
+}
+}
 
 /*Máximo 1024px*/
 @media (max-width:1024px){
@@ -43,9 +64,12 @@
     padding: 0 10rem 0 0 ;
 }
 .letter{
-  margin-left: 2.1rem;
-  text-align: center;
-  font-size: 12px;
+  
+  font-size: 25px;
+  font-weight: 700;
+  text-align: start;
+  margin-left: 30px;
+  width: 150px;
 }
 button{
   margin-left: 2rem;
