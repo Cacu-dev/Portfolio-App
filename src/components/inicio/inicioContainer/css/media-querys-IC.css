@@ -48,7 +48,8 @@
 @media (max-width:480px){
   .contenedor-principal {
   width: 480px;
-  background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1625687521/portfolio/React4-480-4_yg8l6a.jpg) no-repeat;
+  max-height: 100vh;
+  background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1625839767/portfolio/React4-480-4_grks2g.jpg) no-repeat;
 }
 }
 

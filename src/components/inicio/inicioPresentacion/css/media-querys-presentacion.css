@@ -118,6 +118,7 @@
     margin: 30px 0 50px 0;
     color: #82d8ee;
   }
+  
 }
 /*Máximo 800px*/
 @media (max-width: 800px) {
@@ -168,7 +169,7 @@
     width: 480px;
   }
   .presentacion {
-    padding: 35rem 0 0 1.8rem;
+    padding: 36rem 0 0 1.8rem;
     color: white;
     display: flex;
     flex-direction: column;

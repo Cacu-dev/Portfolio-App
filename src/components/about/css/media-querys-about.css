@@ -97,7 +97,7 @@
     color: rgb(1, 34, 65);
   }
 }/*Máximo 800px*/
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .background-about {
     background: url(https://res.cloudinary.com/ddlokqonz/image/upload/v1624578895/portfolio/FrontendResponsive768_oacuvj.jpg)
       no-repeat;
@@ -105,7 +105,7 @@
   }
   
   .about h2 {
-    width: 550px;
+    width: 500px;
     font-size: 55px;
     font-weight: 700;
     color: #fff;
@@ -120,7 +120,7 @@
     font-weight: 700;
     text-align: center;
     color: rgb(65, 65, 65);
-    margin: 0 0 0 2em;
+    margin: 0 1rem 0 0;
     padding-bottom: 2rem;
   }
 }
